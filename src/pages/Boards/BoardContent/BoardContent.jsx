@@ -9,7 +9,7 @@ function BoardContent() {
         height: (theme) =>
           `calc(100vh - ${theme.trello.appBarHeight} - ${theme.trello.boardBarHeight})`,
         display: 'flex',
-        alignItems: 'center',
+        alignItems: 'center'
       }}
     >
       Box content
