@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Workspaces from './Menus/Workspaces'
 import Recent from './Menus/Recent'
 import Starred from './Menus/Starred'
@@ -19,7 +20,6 @@ import LibraryAddIcon from '@mui/icons-material/LibraryAdd'
 import InputAdornment from '@mui/material/InputAdornment'
 import SearchIcon from '@mui/icons-material/Search'
 import CloseIcon from '@mui/icons-material/Close'
-import { useState } from 'react'
 
 function AppBar() {
   const [searchValue, setSearchValue ] = useState('')

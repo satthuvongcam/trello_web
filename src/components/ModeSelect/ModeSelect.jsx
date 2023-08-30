@@ -21,7 +21,7 @@ function ModeSelect() {
         id='label-select-mode'
         sx={{
           color: 'white',
-          '&.Mui-focused': { color: 'white' },
+          '&.Mui-focused': { color: 'white' }
         }}
       >
         Mode
